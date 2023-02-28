@@ -1,8 +1,3 @@
-//tictactoe.cc – DO alter this file.  
-//Add your functions above runGame().
-//NOTE that I have commented out the functions so it will compile.  You
-//MUST uncomment these as you complete them for the game to work and for
-//testing.
 
 #include <stdio.h>
 #include "tictactoe.h"
@@ -128,7 +123,6 @@ void getMove(gameData_t *gameData, char turn) {
         r = move[1];
         c = move[3];
     }
-
     gameData->board[r-49][c-49] = turn;
 }
 
